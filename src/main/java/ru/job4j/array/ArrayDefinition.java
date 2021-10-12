@@ -10,5 +10,14 @@ public class ArrayDefinition {
         System.out.println("Размер массива равен: " + surnames.length);
         float[] prices = new float[40];
         System.out.println("Рзамер массива равен: " + prices.length);
+        String[] names = new String[4];
+        names[0] = "Vasya Pupkin";
+        names[1] = "Fedya Kurochkin";
+        names[2] = "Jane Ostin";
+        names[3] = "Brandon Sanderson";
+        System.out.println("Первое имя " + names[0]);
+        System.out.println("2nd: " + names[0]);
+        System.out.println("XVIII century writer: " + names[2]);
+        System.out.println("XXI century writer: " + names[3]);
     }
 }
