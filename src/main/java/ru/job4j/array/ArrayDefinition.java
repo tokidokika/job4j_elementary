@@ -16,7 +16,7 @@ public class ArrayDefinition {
         names[2] = "Jane Ostin";
         names[3] = "Brandon Sanderson";
         System.out.println("Первое имя " + names[0]);
-        System.out.println("2nd: " + names[0]);
+        System.out.println("2nd: " + names[1]);
         System.out.println("XVIII century writer: " + names[2]);
         System.out.println("XXI century writer: " + names[3]);
     }
