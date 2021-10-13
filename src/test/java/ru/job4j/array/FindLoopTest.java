@@ -23,7 +23,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas15ThenError() {
+    public void whenArrayHas15ThenMinus1() {
         int[] data = {7, 3, 3, 5, 9};
         int el = 15;
         int result = FindLoop.indexOf(data, el);
