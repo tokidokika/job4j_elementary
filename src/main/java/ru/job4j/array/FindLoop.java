@@ -18,6 +18,7 @@ public class FindLoop {
             if (i >= start && i <= finish) {
                 if (data[i] == el) {
                     rst = i;
+                    break;
                 }
             }
         }
