@@ -7,10 +7,10 @@ public class Machine {
         int[] rsl = new int[100];
         int size = 0;
         int cost = money - price;
-        for (int i = 0; i < coins.length; i++) {
-            while (cost >= coins[i]) {
-                cost = cost - coins[i];
-                rsl[size] = coins[i];
+        for (int i : coins) {
+            while (cost >= i) {
+                cost = cost - i;
+                rsl[size] = i;
                 size += 1;
             }
         }
